@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/7401e128e1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="searchbox">
+        <div class="search">검색</div>
+        <div class="magnet">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fa-solid fa-bell"></i>
+        <div class="my-menu">지현</div>
+      </div>
+    </header>
+    <div class="main-sidebar">
+      <main>
+        <section class="player">
+          <video controls src="video.mp4"></video>
+        </section>
+        <section class="info">
+          <div class="metadata">
+            <div class="titleAndButton">
+              <span class="title">
+                [여행 vlog] | 태국 5박 7일 방콕 파타야 ep.1 | 짜투짝 | 왓아룬 |
+                카오산로드 | 괴식먹방 | 가디나호텔
+              </span>
+            </div>
+          </div>
+          <div class="channel-info">
+            <div class="channel">
+              <div class="metadata">
+                <img src="profile.jpg" alt="" />
+              </div>
+              <div class="channel-title">
+                <div class="name">조변커플</div>
+                <div class="subscribers">구독자 96.7만명</div>
+              </div>
+              <div class="subscribe">
+                <button id="subscribe">구독</button>
+              </div>
+            </div>
+            <div class="actions">
+              <div class="action-button">
+                <div class="up">
+                  <button class="action-icon">
+                    <i class="fa-regular fa-thumbs-up fa-lg"></i>
+                  </button>
+                  <span>47.5만</span>
+                </div>
+                <div class="down">
+                  <button class="action-icon">
+                    <i class="fa-regular fa-thumbs-down fa-lg"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="action-button">
+                <button class="action-icon">
+                  <i class="fa-solid fa-share fa-lg"></i>
+                </button>
+                <span>공유</span>
+              </div>
+              <div class="action-button">
+                <button class="action-icon">
+                  <i class="fa-solid fa-arrow-up-from-bracket fa-lg"></i>
+                </button>
+                <span>오프라인 저장</span>
+              </div>
+              <div class="action-button">
+                <button><i class="fa-solid fa-ellipsis fa-lg"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="plus-info">
+            <div class="views">
+              <span class="views">조회수 2,374,938회 4시간전</span>
+            </div>
+            <ul class="hastags">
+              <li>#방콕여행</li>
+              <li>#추억영상</li>
+              <li>#커플유튜브</li>
+              <li>#호시절</li>
+            </ul>
+            <div class="words">
+              <span
+                >안녕하세요? 여행유튜버 조변커플입니다. 여러분도 방콕 감성
+                느껴보시죠.</span
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+      <section class="UpNext">
+        <div class="upnext-buttons">
+          <div class="upnext-button active">모두</div>
+          <div class="upnext-button">내 검색결과</div>
+          <div class="upnext-button">추천</div>
+        </div>
+        <ul>
+          <li class="item">
+            <div class="thumbnail">
+              <img src="1.JPG" alt="" />
+            </div>
+            <div class="short-info">
+              <span class="title2">
+                [여행 vlog] | 태국 5박 7일 방콕 파타야 ep.2 | 수영장에서
+                놀아봤습니다 |
+              </span>
+              <div class="name2">조변커플</div>
+              <div class="views2">조회수 34만회 2주 전</div>
+            </div>
+            <button class="morebutton"></button>
+          </li>
+          <li class="item">
+            <div class="thumbnail"><img src="2.jpg" alt="" /></div>
+            <div class="short-info">
+              <span class="title2">
+                [여행 vlog] | 태국 5박 7일 방콕/방콕 파타야 ep.3 | 크루즈에서
+                야경을 보며 식사한끼했습니다 |
+              </span>
+              <div class="name2">조변커플</div>
+              <div class="views2">조회수 65만회 1주 전</div>
+            </div>
+            <button class="morebutton"></button>
+          </li>
+          <li class="item">
+            <div class="thumbnail"><img src="3.JPG" alt="" /></div>
+            <div class="short-info">
+              <span class="title2">
+                [여행 vlog] | 태국 5박 7일 방콕/방콕 파타야 ep.4 | 재즈바
+                구석에서 음악을 감상해보았습니다 |
+              </span>
+              <div class="name2">조변커플</div>
+              <div class="views2">조회수 27만회 3일전</div>
+            </div>
+            <button class="morebutton"></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <section class="comments">
+      <span class="comments-number">댓글 3개</span>
+      <div class="my-comment">
+        <div class="my-comment-profile">조변</div>
+        <div class="add-comment">댓글추가...</div>
+      </div>
+      <div class="comment-items">
+        <div class="comment-item">
+          <div class="comment-profile" id="comment-profile-1">A</div>
+          <div class="comment-contents">
+            <div class="comment-channel">Angel</div>
+            <div class="comment-content">
+              Wow What a beautiful place! I watch this video every day
+            </div>
+            <div class="reactions">
+              <div class="reaction-up">
+                <button><i class="fa-regular fa-thumbs-up fa-lg"></i></button>
+                <span>254</span>
+              </div>
+              <div class="'reaction-down">
+                <button><i class="fa-regular fa-thumbs-down fa-lg"></i></button>
+              </div>
+              <div><span>답글</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="comment-item">
+          <div class="comment-profile" id="comment-profile-2">N</div>
+          <div class="comment-contents">
+            <div class="comment-channel">Nayungwonlover</div>
+            <div class="comment-content">
+              언제나 잘보고 있습니다. 방콕 영상도 최고네요. 두 분의 앞날을
+              응원합니다 ~ ^^
+            </div>
+            <div class="reactions">
+              <div class="reaction-up">
+                <button><i class="fa-regular fa-thumbs-up fa-lg"></i></button>
+                <span>137</span>
+              </div>
+              <div class="'reaction-down">
+                <button><i class="fa-regular fa-thumbs-down fa-lg"></i></button>
+              </div>
+              <div><span>답글</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="comment-item">
+          <div class="comment-profile" id="comment-profile-3">J</div>
+          <div class="comment-contents">
+            <div class="comment-channel">SleepingJo</div>
+            <div class="comment-content">
+              JoByun cupple is so entertaining You are a successful vlogger!
+            </div>
+            <div class="reactions">
+              <div class="reaction-up">
+                <button><i class="fa-regular fa-thumbs-up fa-lg"></i></button>
+                <span>65</span>
+              </div>
+              <div class="'reaction-down">
+                <button><i class="fa-regular fa-thumbs-down fa-lg"></i></button>
+              </div>
+              <div><span>답글</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
